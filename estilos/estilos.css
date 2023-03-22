@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+/* Estilos para dispositivos de pantalla pequeña */
+@media screen and (max-width: 767px) {
+    /* Menú de navegación */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        height: 50px;
+        padding: 0 10px;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+      }
+      
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+      }
+      
+      nav ul li:hover {
+        background-color: #555;
+      }
+      
+      nav ul li a.nav1 {
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 0;
+      }
+
+    /* Icono para abrir/cerrar el menú */
+    .menu-icon {
+        display: inline-block;
+        float: right;
+        padding: 28px 20px;
+        cursor: pointer;
+    }
+
+    .menu-icon span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #333;
+        margin-bottom: 4px;
+    }
+
+    /* Estilos generales para el sitio */
+    header {
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 800;
+    }
+
+    header h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+
+    main {
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+    section.flexContainer {
+        padding: 20px;
+    }
+
+    footer {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+/* Estilos generales para el sitio */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.flexContainer div {
+    width: 23%;
+    height: 150px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+.primerparrafo {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px;
+}
+
+header{
+    padding: 30px;
+    background-color:antiquewhite;
+}
+li{
+    list-style-type: none;
+}
+
+ul li{
+    display:inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+.nav1{
+    padding: 10;
+}
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-weight: 100;
+    font-style:oblique;
+    color:black;
+}
+.behance{
+    text-decoration:underline;
+}
+
+section{
+    padding: 30px;
+}
+h1{
+    padding: 35px;
+    color: azure;
+    background-color: black;
+}
+.primerparrafo{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border: 5px solid;
+    margin: 20px;
+}
+h2{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+footer{
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
