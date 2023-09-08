@@ -107,7 +107,7 @@ footer{
     align-items: center;
 }
 @media screen and (max-width: 480px) {
-    .icono{
+    .icon{
         width: 5%;
     }
     img {
@@ -154,13 +154,13 @@ footer{
         padding-left: 5px;
         font-size: small;
     }
-    .experiencialaboral{
+    .workexperience{
         padding-top: 10px;
         padding-bottom: 20px;
         display: block;
         text-align: left;
     }
-.experiencia1{
+.experience1{
     padding-left: 17px;
 }
 section{
