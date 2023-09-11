@@ -12,6 +12,9 @@ body{
     color: black;
     text-align: center;
 }
+.textagos{
+    padding:50px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -80,6 +83,7 @@ h2{
     font-size:xx-large;
 }
 h3{
+    padding-bottom: 50px;
     font-size: large;
 }
 .photoagos{
